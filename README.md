@@ -15,3 +15,6 @@ Current Features: <br>
   c. Decision Tree Classifier<br>
   d. Neural Network<br>
   e. k-nearest Neighbours<br>
+6. Feature Selection Techniques: <br>
+  a. Feature Percentile: Choose the best x percent features<br>
+  b. KBestFeatures: Choose the best k features<br>

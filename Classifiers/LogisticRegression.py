@@ -1,4 +1,5 @@
 from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import confusion_matrix
 
 def train(x,y):
 	model = LogisticRegression()
