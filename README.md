@@ -5,3 +5,5 @@ Current Features: <br>
   a. Transcription<br>
   b. Translation<br>
   c. Gene Compliments<br>
+2. SeqRecord module that helps in maintaining different sequence records<br>
+3. Fasta file Readability<br>
