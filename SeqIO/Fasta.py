@@ -23,3 +23,4 @@ def parse(File):
 						break
 			Records.append(SeqRecord(Seq(SeqString, single_letter_alphabet), id, name, description))
 	return Records
+	

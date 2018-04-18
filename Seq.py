@@ -14,6 +14,9 @@ class Seq:
 	def __len__(self):
 		return len(self.sequence)
 
+	def __getitem__(self, sliced):
+		return self.sequence[sliced]
+
 	def transcribe(self):
 		if(isinstance(Alphabet._get_base_alphabet(self.type),Alphabet.DNAAlphabet)):
 			return Seq(string.replace(self.sequence,'T','U'),Alphabet.generic_rna)

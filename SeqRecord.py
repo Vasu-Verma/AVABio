@@ -28,3 +28,11 @@ class SeqRecord:
 			print "Not a valid annotations dictionary: Initializing empty annotations dictionary"
 			annotations = {}
 		self.annotations = annotations
+
+	def __str__(self):
+		value = "Id: " + self.id + "\n"
+		value = value + "name: " + self.id + "\n"
+		value = value + "description: " + self.description + "\n"
+		value = value + "features: " + str(self.features) + "\n" 
+		value = value + "Sequence: " + str(self.seq) + "\n"
+		return value
