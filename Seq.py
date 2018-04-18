@@ -4,7 +4,7 @@ import string
 
 complementDict = {"A":"T", "G":"C", "T":"A", "C":"G"}
 class Seq:
-	def __init__(self, sequence, type):
+	def __init__(self, sequence, type=Alphabet.generic_alphabet):
 		self.sequence = sequence
 		self.type = type
 
