@@ -10,3 +10,6 @@ def score(model,x,y):
 
 def predict(model, x):
 	return model.predict(x)
+
+def generateConfusionMatrix(model, x, y):
+	return confusion_matrix(model.predict(x),y)

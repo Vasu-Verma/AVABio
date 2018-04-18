@@ -1,7 +1,8 @@
-from sklearn.linear_model import LogisticRegression
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import confusion_matrix
 
-def train(x,y):
-	model = LogisticRegression()
+def train(x,y, neighbors=5):
+	model = KNeighborsClassifier(n_neighbors=neighbors)
 	model = model.fit(x,y)
 	return model
 

@@ -12,3 +12,6 @@ Current Features: <br>
 5. Machine Learning Models<br>
   a. SVM<br>
   b. Logistic Regression<br>
+  c. Decision Tree Classifier<br>
+  d. Neural Network<br>
+  e. k-nearest Neighbours<br>

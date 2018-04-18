@@ -1,7 +1,8 @@
-from sklearn.linear_model import LogisticRegression
+from sklearn import tree
+from sklearn.metrics import confusion_matrix
 
 def train(x,y):
-	model = LogisticRegression()
+	model = tree.DecisionTreeClassifier()
 	model = model.fit(x,y)
 	return model
 
