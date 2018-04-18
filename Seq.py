@@ -66,4 +66,4 @@ class Seq:
 					complement = complement + complementDict[self.sequence[i]]
 			return Seq(complement,Alphabet.generic_rna)
 		else:
-			print "Not a DNA or RNA Sequences"
+			print "Not a DNA or RNA Sequencess"
