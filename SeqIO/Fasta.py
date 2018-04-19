@@ -23,4 +23,14 @@ def parse(File):
 						break
 			Records.append(SeqRecord(Seq(SeqString, single_letter_alphabet), id, name, description))
 	return Records
-	
+
+def write(Records, filename):
+	file = open(filename, 'w')
+	for record in Records:
+		file.write(">")
+		file.write(record.description+"\n")
+		i = 0
+		while i+70<len(record.seq.sequence):
+			file.write(record.seq.sequence[i:i+70]+"\n")
+			i = i+70
+		file.write(record.seq.sequence[i:]+"\n")

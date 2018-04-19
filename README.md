@@ -7,7 +7,7 @@ Current Features: <br>
   c. Gene Compliments<br>
   d. Gene Slicing<br>
 2. SeqRecord module that helps in maintaining different sequence records<br>
-3. Fasta file Readability<br>
+3. Fasta file Readability and Writability<br>
 4. Training - Testing DataSplit<br>
 5. Machine Learning Models<br>
   a. SVM<br>
